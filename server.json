@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "User": "Alice",
+      "name": "Alice de Assis",
+      "password": "password1",
+      "email": "johnuno@example.com",
+      "phone_code": "83",
+      "phone": "98888-1111",
+      "Group": "BH1"
+    },
+    {
+      "id": 2,
+      "User": "Bob",
+      "name": "Bob Esponja Calca Quadrada",
+      "password": "password2",
+      "email": "johndoe@example.com",
+      "phone_code": "41",
+      "phone": "98888-1111",
+      "Group": "CJZ1"
+    },
+    {
+      "id": 3,
+      "User": "Carol da Silva Sauro",
+      "name": "Carol",
+      "password": "password3",
+      "email": "johntre@example.com",
+      "phone_code": "38",
+      "phone": "98898-1234",
+      "Group": "CTB1"
+    }
+  ]
+}
