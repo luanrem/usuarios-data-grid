@@ -1,11 +1,16 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
-  );
-}
+import GlobalStyle from './styles/global';
+import Router from './routes';
+
+const App: React.FC = () => (
+  <>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+    <GlobalStyle />
+  </>
+);
+
+export default App;
